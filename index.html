@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akademnashr - Landing page</title>
+    <!-- Font-awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Header section starts -->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__left">
+            <a href="/" class="header__logo">
+              <img src="./images/favicon.svg" alt="logo" />
+              <h2 class="header__title">
+                Akadem<span class="header__text">nashr</span>
+              </h2>
+            </a>
+          </div>
+          <div class="header__right">
+            <!-- Navbar -->
+            <nav class="header__links">
+              <a href="#hero" class="header__link">Bosh sahifa</a>
+              <a href="#book" class="header__link">Kitoblar</a>
+              <a href="#sale" class="header__link">Aksiyalar</a>
+              <a href="#footer" class="header__link">Kontaktlar</a>
+            </nav>
+            <button class="header__button button">Ro'yxatdan o'tish</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Hero section starts -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__left">
+            <hr class="hero__line line" />
+            <h2 class="hero__title">Pythonda dasturlash asoslari</h2>
+            <p class="hero__description">
+              Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal
+              qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar
+              yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish
+              mumkin.
+            </p>
+            <button class="hero__button button">Buyurtma berish</button>
+          </div>
+          <div class="hero__right">
+            <img
+              class="hero__image"
+              src="./images/python-book.png"
+              alt="Python book image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section ends -->
+
+    <!-- Book section starts -->
+    <section class="book" id="book">
+      <div class="container">
+        <div class="book__wrapper">
+          <div class="book__top">
+            <hr class="book__line line" />
+            <h2 class="book__title">Nega aynan Akademnashr?</h2>
+          </div>
+          <div class="book__bottom">
+            <div class="book__card">
+              <div class="book__card--circle">
+                <img
+                  class="book__card--image"
+                  src="./images/card__img-1.svg"
+                  alt="card__image"
+                />
+              </div>
+              <h3 class="book__card--title">Oson buyurtma qilish</h3>
+              <p class="book__card--description">
+                Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda
+                buyurtma qila olasiz.
+              </p>
+            </div>
+            <div class="book__card">
+              <div class="book__card--circle">
+                <img
+                  class="book__card--image"
+                  src="./images/card__img-2.svg"
+                  alt="card__image"
+                />
+              </div>
+              <h3 class="book__card--title">Eng sara kitoblar</h3>
+              <p class="book__card--description">
+                Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har
+                xil janrdagi kitoblarni topa olasiz.
+              </p>
+            </div>
+            <div class="book__card">
+              <div class="book__card--circle">
+                <img
+                  class="book__card--image"
+                  src="./images/card__img-3.svg"
+                  alt="card__image"
+                />
+              </div>
+              <h3 class="book__card--title">Tez yetkazib berish</h3>
+              <p class="book__card--description">
+                O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro
+                buyurtmalarni 10 ish kuni ichida yetkazib beriladi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Book section ends -->
+
+    <!-- Sale section starts -->
+    <section class="sale" id="sale">
+      <div class="container">
+        <div class="sale__wrapper">
+          <div class="sale__left">
+            <h2 class="sale__title">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+            <p class="sale__description">
+              Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun
+              turli mashq qo’llanmalari va komikslar.
+            </p>
+            <p class="sale__description">
+              Aksiyadagi eng katta to’plamda
+              <span class="sale__text">50 ta kitob</span> ni
+              <span class="sale__text">350 ming</span>
+              so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
+            </p>
+            <button class="sale__button button">Buyurtma berish</button>
+          </div>
+          <div class="sale__right">
+            <img
+              src="./images/sale-img.png"
+              alt="sale image"
+              class="sale__image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sale section ends -->
+
+    <!-- Footer section starts -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__top">
+            <div class="footer__left">
+              <a href="/" class="footer__logo">
+                <img src="./images/favicon.svg" alt="logo" />
+                <h2 class="footer__title">
+                  Akadem<span class="footer__text">nashr</span>
+                </h2>
+              </a>
+            </div>
+            <div class="footer__right">
+              <a href="#" class="footer__icon">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+              <a href="#" class="footer__icon">
+                <i class="fa-solid fa-globe"></i>
+              </a>
+              <a href="#" class="footer__icon">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <hr class="footer__line" />
+
+          <div class="footer__bottom">
+            <div class="footer__links">
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+            </div>
+            <div class="footer__links">
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+            </div>
+            <div class="footer__links">
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+            </div>
+            <div class="footer__links">
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+              <a href="#" class="footer__link">Bosh sahifa</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section ends -->
+  </body>
+</html>

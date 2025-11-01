@@ -1,0 +1,234 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff7500;
+  border-radius: 6px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: chocolate;
+}
+/* Core styles */
+* {
+  margin: 0;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", serif;
+}
+.button {
+  background-color: #ff7500;
+  border: 2px solid #ff7500;
+  padding: 12px 24px;
+  border-radius: 4px;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.button:hover {
+  opacity: 80%;
+}
+.line {
+  display: inline-block;
+  background-color: #ff7500;
+  width: 80px;
+  height: 3px;
+  border: none;
+}
+/* Header section styles */
+.header {
+  border-top: 4px solid #ff7500;
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 100;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo,
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header__right,
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header__title,
+.footer__title {
+  color: black;
+}
+.header__text,
+.footer__text {
+  /* hex value */
+  color: #ff7500;
+}
+.header__link {
+  color: black;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: all 0.3s linear;
+}
+.header__link:hover {
+  color: #ff7500;
+  text-decoration: underline;
+}
+/* Hero section styles */
+.hero {
+  background-color: #252420;
+}
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 144px;
+}
+.hero__title {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+  line-height: 120%;
+  margin: 36px 0;
+}
+.hero__description {
+  color: white;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+}
+.hero__image {
+  transform: translateY(64px);
+}
+/* Book section styles */
+.book {
+  margin: 144px 0;
+}
+.book__title {
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  margin-top: 24px;
+  max-width: 500px;
+}
+.book__bottom {
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.book__card--circle {
+  background-color: #ff750033;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book__card--title {
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  margin: 24px 0;
+}
+.book__card--description {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+/* Sale section styles */
+.sale {
+  margin: 144px 0;
+}
+.sale__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 128px;
+  background-color: #252420;
+  padding: 0 64px;
+  border-radius: 12px;
+}
+.sale__title {
+  color: white;
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 36px;
+  letter-spacing: 0.5px;
+}
+.sale__description {
+  color: white;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 20px 0;
+}
+.sale__text {
+  color: #ff7500;
+}
+.sale__image {
+  transform: translate(0, -64px);
+}
+/* Footer section styles */
+.footer {
+  background-color: #f8f8f8;
+  padding: 48px 0;
+}
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__icon {
+  color: black;
+  margin-left: 12px;
+  font-size: 20px;
+  transition: all 0.3s linear;
+}
+.footer__icon:hover {
+  color: #ff7500;
+}
+.footer__line {
+  margin: 32px 0;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__link {
+  display: block;
+  color: black;
+  margin: 10px 0;
+  transition: all 0.3s linear;
+}
+.footer__link:hover {
+  color: #ff7500;
+}
